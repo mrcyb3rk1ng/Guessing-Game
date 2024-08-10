@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Guessing Game</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <h1>simple guessing game</h1>
+   
+   <div class="scoreBoard">
+      <div class="compScore">
+         <p>COMP : </p><p class="showCompScore"> 00</p>
+      </div>
+      
+      <div class="yourScore">
+         <p class="showYourScore">00 </p><p> : YOU</p>
+      </div>
+   </div>
+   
+   <div class="container">
+      <button id="btn1" onclick="gameHandler(1, this)">Apple</button>
+      <button id="btn2" onclick="gameHandler(2, this)">Mango</button>
+      <button id="btn3" onclick="gameHandler(3, this)">Orange</button>
+      <button id="btn4" onclick="gameHandler(4, this)">Banana</button>
+      <button id="btn5" onclick="gameHandler(5, this)">Pineapple</button>
+      <button id="btn6" onclick="gameHandler(6, this)">Lychee</button>
+   </div>
+   
+   <div class="instruction">
+      <h2>Instructions</h2>
+      <p>First of all, You will select a button like Apple,Mango,Orange etc. If your selected item match with computer's selected item, You will win. Otherwise, you will lose.</p>
+   </div>
+   
+   <div class="aboutDeveloper">
+      <h2>About Developer</h2>
+      <p>Hi, I'm Hijbullah Mohammad Suhaib. I'm a learner of Web Development. I'm expert in HTML, CSS, Tailwind CSS, JavaScript and Python. You can contact me with <a href="https://www.facebook.com/hijbullahmohammad.suhaib">Facebook</a>.</p>
+   </div>
+   
+   <p class="copyr8">Copyright @2024 by <a href="https://www.facebook.com/hijbullahmohammad.suhaib">HM.Suhaib</a> All rights reserved.</p>
+   
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+   margin: 0 auto;
+   padding: 0;
+   max-width: 500px;
+   box-sizing: border-box;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+   text-transform: capitalize;
+   margin: 50px 0 20px 0;
+   text-align: center;
+   font-size: 25px;
+   color: rgba(0, 0, 0, 0.8);
+   font-weight: 600;
+}
+
+.scoreBoard{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 10px auto;
+   font-size: 25px;
+   background-color: orange;
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 15px 20px;
+   color: #440808;
+}
+
+.scoreBoard p{
+   margin: 0;
+}
+
+.yourScore,.compScore {
+   display: flex;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 5px;
+   width: 80%;
+   margin: auto;
+}
+
+button{
+   height: 60px;
+   border: none;
+   border-radius: 5px;
+   font-size: 13px;
+   transition:.1s;
+}
+
+button:active, button:hover{
+   background-color: orange;
+}
+
+.instruction{
+   width: 80%;
+   text-align: center;
+   margin: 20px auto;
+   background-color: orange;
+   color: #440808;
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 20px;
+}
+
+.instruction h2,.aboutDeveloper h2{
+   font-size: 20px;
+   margin: 10px;
+}
+
+.instruction p,.aboutDeveloper p{
+   margin: 0;
+   text-align: left;
+   font-size: 13px;
+}
+
+.aboutDeveloper{
+   width: 80%;
+   text-align: center;
+   margin: 20px auto;
+   background-color: rgba(0, 0, 0, 0.06);
+   color: rgba(0, 0, 0, 0.8);
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 20px;
+}
+
+.copyr8{
+   text-align: center;
+   font-size: 13px;
+}
+
+.copyr8 a, .aboutDeveloper a{
+   color: orange;
+}
